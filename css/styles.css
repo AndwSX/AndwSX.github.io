@@ -1,0 +1,91 @@
+:root {
+  --color-dark: #2b2726;
+  --color-teal-dark: #0a516d;
+  --color-teal: #018790;
+  --color-sage: #7dad93;
+  --color-sage-light: #bacca4;
+}
+
+/* Colores en los textos */
+.text-dark {
+  color: var(--color-dark) !important;
+}
+
+.text-teal-dark {
+  color: var(--color-teal-dark) !important;
+}
+
+.text-primary,
+.btn-primary {
+  color: #fff !important;
+  background-color: var(--color-teal) !important;
+  border-color: var(--color-teal) !important;
+}
+
+.text-sage {
+  color: var(--color-sage) !important;
+}
+
+.text-sage-light {
+  color: var(--color-sage-light) !important;
+}
+
+/* Colores de los fondos */
+.bg-dark {
+  background-color: var(--color-dark) !important;
+}
+
+.bg-primary {
+  background-color: var(--color-teal) !important;
+}
+
+.bg-sage-light {
+  background-color: var(--color-sage-light) !important;
+}
+
+.bg-gradient-teal {
+  background: linear-gradient(to bottom, var(--color-teal-dark), var(--color-teal));
+}
+
+.bg-gradient-overlay {
+  background: linear-gradient(to right, var(--color-teal-dark), var(--color-teal));
+  opacity: 0.9;
+  z-index: 10;
+}
+
+/* Colores Bordes */
+.border-sage-light {
+  border-color: var(--color-sage-light) !important;
+}
+
+.border-sage-30 {
+  border-color: rgba(125, 173, 147, 0.3) !important;
+}
+
+/* Componentes */
+.hero-image {
+  height: 600px;
+}
+
+.feature-card {
+  background: linear-gradient(to bottom right, rgba(186, 204, 164, 0.2), rgba(125, 173, 147, 0.2));
+}
+
+.feature-icon {
+  width: 56px;
+  height: 56px;
+  background-color: var(--color-teal);
+}
+
+.product-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+}
+
+/* Hover Efectos */
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--color-teal-dark) !important;
+  border-color: var(--color-teal-dark) !important;
+}
+
